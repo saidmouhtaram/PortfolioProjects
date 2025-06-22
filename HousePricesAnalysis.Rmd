@@ -1,0 +1,70 @@
+## Housing Prices Analysis
+This analysis uses a dataset relative to houses prices in the USA.
+
+The objective is to analyse which are the factors that contribute the most to the prices of houses.
+
+First of all I import libraries,import the data and visualize it
+```{r}
+library(dplyr)
+library(ggplot2)
+df<-read.csv("C:/Users/s1720/OneDrive/Desktop/GitHub/DataSet/Housing.csv")
+str(df) #Checking data structure
+head(df) #Importing the first values of each column
+```
+Checking if the dataset needs cleaning
+```{r}
+mean(df$price)#If there are non numerical values we get NA
+mean(df$area)
+mean(df$bedrooms)
+mean(df$bathrooms)
+mean(df$stories)
+mean(df$parking)
+sum(is.na(df)) #Checking if there are NA values in general including char columns
+sapply(df,length) #Checking that the values have the same length
+df <- df[!duplicated(df), ]  #Eliminate duplicates if present
+```
+Since there needs to be no cleaning I go on and convert the yes and no values into 0 and 1 dummy variables (0, 1 and 2 in the case of furniture)
+```{r}
+#First the variables with yes and no
+binary_cols <- c("mainroad", "guestroom", "basement", "hotwaterheating",
+                 "airconditioning", "prefarea")
+df[binary_cols]<-lapply(df[binary_cols],function(x) ifelse(x=="yes",1,0))
+
+#Second the furniture variable
+df[["furnishingstatus"]]<-lapply(df[["furnishingstatus"]],function(x) ifelse(x=="furnished",2,ifelse(x=="semi-furnished",1,0)))
+#str(df)
+df$furnishingstatus <- unlist(df$furnishingstatus) #Changing the column from list to num
+str(df)
+```
+Then I calculate summary statistics and visualize a histogram of the data
+```{r}
+summary(df[,c("price","area","bedrooms","bathrooms","stories")])
+hist(df$price)
+```
+
+As we can see the prices of the houses go from 1.750.000,00 to 13.300.000,00$, with a median of 4.340.000,00 dollars.
+The area has a minimum of 1.650 sq. ft. and a maximum of 16.200, the median is 4600.
+In both cases the median is smaller than the mean suggesting the presence of a skewness to the left and of some values
+extremely high values that noticeably increase the mean.
+
+Now there I regress the prices on all the other variables
+```{r}
+model<-lm(price~ area+bedrooms+bathrooms+stories+mainroad+guestroom+basement+hotwaterheating+airconditioning+parking+prefarea+furnishingstatus, data=df)
+summary(model)
+```
+All variables, aside from the number of bedrooms, are significantly different from 0 at the 5% significance level.
+
+Now I eliminate the number of bedrooms.
+```{r}
+model<-lm(price~ area+bathrooms+stories+mainroad+guestroom+basement+hotwaterheating+airconditioning+parking+prefarea+furnishingstatus, data=df)
+summary(model)
+```
+Now all explanatory variables of the model are significantly different from zero at  the 0.05 significance level.
+In this model we see the highest effect on price is given by the number of bathrooms, the presence of air conditioning,
+of hot water heating, the presence in a preferential area and the presence of an access to a mainroad.
+The R-squared is quite high suggesting a good capacity of the model to explain the prices of housing in America.
+
+Said Mouhtaram
+
+Source of the Dataset:
+https://www.kaggle.com/datasets/yasserh/housing-prices-dataset/data

@@ -1,4 +1,4 @@
-#About 
+****About****
 
 Hi, I'm Said! I'm currently pursuing a Master’s degree in *Applied Economics and Markets* at the University of Bologna, where I’m building a strong foundation in quantitative analysis, data interpretation, and economic modeling.
 
@@ -7,7 +7,7 @@ I’m passionate about using data to understand complex systems and support deci
 Outside of university, I enjoy experimenting with datasets from Kaggle and creating small projects that combine economic reasoning with data analytics. I’m eager to continue growing in this field and contribute to data-driven environments with curiosity, precision, and a problem-solving mindset.
 
 This repository is where I share my learning progress, publish exploratory projects, and showcase my skills in **data analysis, business intelligence, and applied economics**.
-##Table of Contents
+****Table of Contents****
 
 - [About](#about)
 - [Portfolio Projects](#portfolio-projects)  
@@ -24,5 +24,5 @@ This repository is where I share my learning progress, publish exploratory proje
   
  ▸ **SQL**  
 ##Contacts
-Linkedin: [Said Mouhtaram]([https://www.linkedin.com/in/said-mouhtaram-75527a245/))  
+Linkedin: [Said Mouhtaram]([[https://www.linkedin.com/in/said-mouhtaram-75527a245/)](https://www.linkedin.com/in/said-mouhtaram-75527a245/))  
 Email: said17.mouhtaram@gmail.com

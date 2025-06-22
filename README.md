@@ -13,10 +13,10 @@ This repository is where I share my learning progress, publish exploratory proje
 - [Portfolio Projects](#portfolio-projects)  
  
   ▸ **R**  
-  &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [American Houses Price Analysis]([https://github.com/tuo-user/repo/istat-r](https://github.com/saidmouhtaram/PortfolioProjects/blob/7577feb6906cd3771e3cb3644427c387a8f50345/HousePricesAnalysis.Rmd))  
+  &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [American Houses Price Analysis](https://github.com/saidmouhtaram/PortfolioProjects/blob/7577feb6906cd3771e3cb3644427c387a8f50345/HousePricesAnalysis.Rmd)
 
   ▸ **Excel / Google Sheets**  
-  &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [Company Sales Data Analysis]([https://github.com/tuo-user/repo/sales-dashboard-excel](https://github.com/saidmouhtaram/PortfolioProjects/blob/ba495ed43bda77656cfcee6e7cbd293cf328efa0/Sales_Data_SM.xlsx))  
+  &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [Company Sales Data Analysis](https://github.com/saidmouhtaram/PortfolioProjects/blob/ba495ed43bda77656cfcee6e7cbd293cf328efa0/Sales_Data_SM.xlsx)  
   
   ▸ **Power BI**  
  

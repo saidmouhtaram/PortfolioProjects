@@ -25,5 +25,6 @@ This repository is where I share my learning progress, publish exploratory proje
   ▸ **SQL**
 
 ****Contacts****
+
 Linkedin: [Said Mouhtaram](https://www.linkedin.com/in/said-mouhtaram-75527a245/)  
 Email: said17.mouhtaram@gmail.com

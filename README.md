@@ -14,6 +14,7 @@ This repository is where I share my learning progress, publish exploratory proje
  
   ▸ **R**  
   &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [American Houses Price Analysis](https://github.com/saidmouhtaram/PortfolioProjects/blob/7577feb6906cd3771e3cb3644427c387a8f50345/HousePricesAnalysis.Rmd)
+  
   &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [Italian Unemployment Prediction Through Google searches](https://github.com/saidmouhtaram/PortfolioProjects/blob/R/Analysis_SM.pdf)
 
   ▸ **Excel / Google Sheets**  

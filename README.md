@@ -19,13 +19,8 @@ This repository is where I share my learning progress, publish exploratory proje
 
   ▸ **Excel / Google Sheets**  
   &nbsp;&nbsp;&nbsp;&nbsp;▪︎ [Company Sales Data Analysis](https://github.com/saidmouhtaram/PortfolioProjects/blob/ba495ed43bda77656cfcee6e7cbd293cf328efa0/Sales_Data_SM.xlsx)
-  
-  
-  ▸ **Power BI**  
  
   ▸ **Python**  
-  
-  ▸ **SQL**
 
 ****Contacts****
 

@@ -2,7 +2,7 @@
 
 Hi, I'm Said! I hold a Master's degree in Applied Economics and Markets from the University of Bologna, where I built a strong foundation in quantitative analysis, data interpretation, and economic modeling.
 
-I'm passionate about using data to understand complex systems and support decision-making. Throughout my academic journey, I've worked with tools like Python, R, SQL, Excel, and Power BI to explore datasets, run statistical analyses, and present insights through clear visualizations and reports.
+I'm passionate about using data to understand complex systems and support decision-making. Throughout my academic journey, I've worked with tools like Python, R, SQL, Excel, and Power BI to explore datasets, run statistical analysis, and present insights through clear visualizations and reports.
 
 I enjoy experimenting with datasets from Kaggle and creating projects that combine economic reasoning with data analytics. I'm eager to continue growing in this field and contribute to data-driven environments with curiosity, precision, and a problem-solving mindset.
 
@@ -37,7 +37,7 @@ This repository is where I share my learning progress, publish exploratory proje
 
 ## Exploratory Data Analysis
 
-▪︎ **[American Housing Price Analysis](housing_analysis_with_output.pdf)** *(R)*  
+▪︎ **[American Housing Price Analysis](https://github.com/saidmouhtaram/PortfolioProjects/blob/R/housing_analysis_with_output.pdf)** *(R)*  
 &nbsp;&nbsp;&nbsp;&nbsp;Built a multiple linear regression on a Kaggle US housing dataset (545 observations) to identify the drivers of listing prices. Bathrooms, air conditioning, hot water heating, preferred-area location, and main-road access came out as the strongest predictors, with the final model explaining roughly 68% of price variance (R² ≈ 0.68).
 
 ## Business Intelligence & Reporting
